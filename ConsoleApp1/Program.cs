@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Rhino4;
 using RhinoScript4;
-using Rhino.Geometry;
 
 namespace rhinoCOM
 {
@@ -29,7 +28,6 @@ namespace rhinoCOM
             double[] pt_1 = { 0, 0, 0 };
             double[] pt_2 = { 100, 100, 100 };
 
-            //rs.AddPoint(pt_1);
 
             rs.AddLine(pt_1, pt_2);
         }
