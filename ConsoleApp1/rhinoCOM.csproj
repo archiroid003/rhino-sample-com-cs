@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="RhinoCommon">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Rhinoceros 5\System\RhinoCommon.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -53,27 +50,18 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <COMReference Include="Rhino4">
-      <Guid>{E58A8035-577A-42E2-A560-1D3564C1F6C3}</Guid>
-      <VersionMajor>1</VersionMajor>
+    <COMReference Include="Rhino">
+      <Guid>{8C16E736-D2B9-409D-80DE-CECFBFBC90F6}</Guid>
+      <VersionMajor>6</VersionMajor>
       <VersionMinor>0</VersionMinor>
       <Lcid>0</Lcid>
       <WrapperTool>tlbimp</WrapperTool>
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
-    <COMReference Include="Rhino5x64">
-      <Guid>{8ABB4303-8057-47AD-BAEB-263965E5565D}</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </COMReference>
-    <COMReference Include="RhinoScript4">
+    <COMReference Include="RhinoScript">
       <Guid>{75B1E1B4-8CAA-43C3-975E-373504024FDB}</Guid>
-      <VersionMajor>5</VersionMajor>
+      <VersionMajor>6</VersionMajor>
       <VersionMinor>0</VersionMinor>
       <Lcid>0</Lcid>
       <WrapperTool>tlbimp</WrapperTool>
